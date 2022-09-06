@@ -1,0 +1,10 @@
+.nav-logo {
+  height: 40px;
+  object-fit: cover;
+}
+
+.page-link:hover {
+  background-color: #b6f5f5;
+  /* Green */
+  color: white;
+}

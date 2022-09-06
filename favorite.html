@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <title>Movie List</title>
@@ -12,8 +13,8 @@
 
 <body>
   <!--Navba-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html"><em>Moviegoer</em></a>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" style="background-color: #b4daf7">
+    <a class=" navbar-brand" href="index_rev.html"><img src="logo.png" class="nav-logo" alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -21,7 +22,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index_rev.html">Home<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="favorite.html">Favorite</a>
@@ -30,7 +31,7 @@
     </div>
   </nav>
 
-  <div class="container mt-5">
+  <div class="container mt-5 pt-5">
     <!--movie list-->
     <div class="row" id="data-panel">
 
