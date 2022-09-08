@@ -98,8 +98,7 @@ function renderPaginator(amount) {
 
   for (let i = 1; i <= totalPage; i++) {
     html += `
-      <li class="page-item"><a type="button" class="btn-primary page-link ${i === 1 ? "active" : ""
-      }" data-toggle="button"  data-page=${i} href="#">${i}</a></li>
+      <li class="page-item"><a type="button" class="btn-primary page-link ${i === 1 ? "active" : ""}" data-toggle="button"  data-page=${i} href="#">${i}</a></li>
     `;
   }
   paginator.innerHTML = html;
